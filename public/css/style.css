@@ -1,0 +1,55 @@
+/* .page_navbar {
+  border-bottom: 1px solid lightgray;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poiret One", cursive;
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#glow {
+  text-shadow: 5px 5px 10px #f56d58;
+}
+.navbar a:hover {
+  color: #f56d58;
+}
+
+button {
+  background-color: #f56d58;
+  border: 1px solid #f56d58;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+  font-weight: 900;
+}
+.card {
+  box-shadow: 5px 5px 15px lightgray;
+  position: relative;
+  padding: 2rem;
+}
+.card i {
+  position: absolute;
+  font-size: 2.5rem;
+  top: -1rem;
+  margin: auto;
+}
+.card:hover i {
+  color: black;
+}
+
+.card:hover {
+  background-image: linear-gradient(-45deg, cyan, blue);
+  color: white;
+  cursor: pointer;
+}
+#footer {
+  color: #f56d58;
+  font-size: 1rem;
+}
